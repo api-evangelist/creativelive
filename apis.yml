@@ -1,7 +1,25 @@
 aid: creativelive
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/creativelive.png
 name: creativeLIVE
-description: 'creativeLIVE is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'creativeLIVE (CreativeLive) is an online learning platform offering more
+  than 2,300 on-demand courses and live interactive classes taught by working professionals
+  across photography, video and filmmaking, graphic and web design, business and entrepreneurship,
+  arts and crafts, audio and music production, and AI and technology. Learners access
+  practical, skill-based instruction through a subscription, with certificates of completion
+  available. Surfaced as a portfolio company of GV and added to the API Evangelist network;
+  creativeLIVE exposes no public developer API, but does publish a machine-readable
+  llms.txt course index for AI agents.'
 url: https://raw.githubusercontent.com/api-evangelist/creativelive/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +29,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Consumer
+- Education
+- Online Learning
+- Courses
+- Photography
+- Video
+- Design
+- Creative
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +48,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://creativelive.com
+  url: https://www.creativelive.com
+- type: Blog
+  url: https://www.creativelive.com/blog
+- type: Pricing
+  url: https://www.creativelive.com/subscribe
+- type: SignUp
+  url: https://www.creativelive.com/subscribe
+- type: TermsOfService
+  url: https://www.creativelive.com/policies
+- type: PrivacyPolicy
+  url: https://www.creativelive.com/policies
+- type: Support
+  url: mailto:support@creativelive.com
+- type: LLMsTxt
+  url: llms/creativelive-llms.txt
+- type: DomainSecurity
+  url: security/creativelive-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
